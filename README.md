@@ -64,8 +64,9 @@ ESP partition.
 It contains a few demo product images/media files that are only used for the
 "demo mode" on the stock ROM.
 
-1. Boot into TWRP recovery and make a backup of the `APD (ASUS Product Demo)`
-   partition. Store in it a safe place in case you want to restore it.
+1. Boot into TWRP recovery (you'll need to install TWRP for this device, [which you can find here](https://forum.xda-developers.com/memo-pad-7/orig-development/recovery-unofficial-twrp-3-2-1-asus-t3745190)
+   and make a backup of the `APD (ASUS Product Demo)` partition.
+   Store in it a safe place in case you want to restore it.
 2. Wipe the APD partition, and change its file system to FAT32.
 3. Place the EFI application (e.g. Linux) on the APD partition, and use it
    in a boot target using the `volume` option:
